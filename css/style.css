@@ -11,3 +11,13 @@
 h1 {
     color: blue;
 }
+footer {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    align-items: center;
+    padding: 20px 60px 20px 40px;
+    color: white;
+    background-color: darkslategray;
+
+
+}
