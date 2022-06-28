@@ -8,15 +8,22 @@
      font-family: 'Aleo Bold 700', serif;
      font-style: normal
      font-weight: 700;
-     src: :local-link ("assets/fonts/Aleo.zip")
+     src :local-link ("assets/fonts/Aleo.zip")
             }       
  @font-face {
       font-family: 'Aleo Bold 700 Italic ', serif;
       font-style: italic;
       font-weight: 700;
-      src: :local-link ("assets/fonts/Aleo.zip") 
+      src: local-link ("assets/fonts/Aleo.zip") 
         }         
-body {
+@font-face {
+       font-family: 'Aleo Regular 400 Italic', serif; 
+       font-style: italic;
+      font-weight: 400;
+      src: local-link ("assets/fonts/Aleo.zip") 
+}
+       
+  body {
 position: relative;
 width: 1440px;
 height: 3735px;
@@ -102,20 +109,27 @@ header {
      }   
   .receive {
 
-position: absolute;
-width: 723px;
-height: 24px;
-left: 120px;
-top: 346px;
+  position: absolute;
+  width: 723px;
+   height: 24px;
+  left: 120px;
+  top: 346px;
 
-font-family: 'Aleo';
-font-style: italic;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height */
-
-
-color: #FFFFFF;
+  font-family: 'Aleo';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #FFFFFF;
   }
-       
+   .rectangle1 {
+    position: absolute;
+   width: 892px;
+   height: 95px;
+   left: 120px;
+   top: 416px;
+
+   background: rgba(255, 255, 255, 0.7);
+   border-radius: 16px;
+   }
