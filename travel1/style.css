@@ -1,0 +1,85 @@
+@font-face {
+     font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    src:url("assets/fonts/Red_Hat_Text.zip" )
+        }
+body {
+position: relative;
+width: 1440px;
+height: 3735px;
+}
+header {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+      }  
+    #background {
+        opacity: 0.9;
+    }  
+      .nav-list {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+        gap: 42px;
+        list-style: none;
+        position: absolute;
+        width: 527px;
+        height: 21px;
+        left: 494px;
+        top: 35px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+      } 
+       
+      #container {
+        position: absolute;
+        width: 216px;
+        height: 31px;
+        left: 120px;
+        top: 25px;
+      }
+     .button1 {
+        display: block;
+        
+        padding: 10px 30px;
+        gap: 10px;
+        
+        position: absolute;
+        width: 103px;
+        height: 41px;
+        left: 1217px;
+        top: 25px;
+
+         background: #0D606F;
+         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+         border-radius: 10px;
+         
+         font-family: 'Red Hat Text', sans-serif;
+          font-style: normal;
+           font-weight: 500;
+         font-size: 16px;
+         line-height: 21px;
+
+        color: #FFFFFF;
+
+    }
+ body {
+    position: absolute;
+    margin: 0;
+    
+ }   
+   h1 {
+    position: absolute;
+    top: 90px;
+   }   
+     
+       
