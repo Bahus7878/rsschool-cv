@@ -93,6 +93,7 @@ header {
  body {
     position: absolute;
     margin: 0;
+    display: flex;
     
  }   
    h1 {
@@ -164,3 +165,42 @@ header {
    color: #FFFFFF;
    
    }
+ h2 {
+  position: absolute;
+width: 611px;
+height: 53px;
+left: calc(50% - 611px/2);
+top: calc(50% - 53px/2 - 97px);
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+/* identical to box height */
+
+
+color: #F2785C;
+
+ }  
+ .frame27 {
+  position: absolute;
+  
+  display: flex;
+  justify-content: space-around;
+  width: 1177px;
+
+  top: 936px;
+  
+ }
+ .frame27 div {
+    background-color:  #F2785C;
+  padding-left: 24px;
+  padding-top: 24px;
+  height: 76px;
+  width: 76px;
+    border-radius: 16px;
+  
+  
+
+ }
